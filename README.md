@@ -84,7 +84,9 @@ If the flashing succedded, congratulations, your ESP-32 device now runs _Larissa
 
 
 ## Project Structure
-WIP
+
+## WIP
+
 ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
 files that provide set of directives and instructions describing the project's source files and targets
 (executable, library, or both). 
