@@ -4,5 +4,12 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
 
+# Basic, but works for now.
+# I'll probably need to scrap this rather sooner than later. 
+# Assigned Task LAR-5?
+
+set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/components/booters ${CMAKE_CURRENT_SOURCE_DIR}/components/mounters ${CMAKE_CURRENT_SOURCE_DIR}/components)
+set(COMPONENTS main ${EXTRA_COMPONENT_DIRS})
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(main)

@@ -21,3 +21,4 @@ XUNIT_RESULT*.xml
 
 sdkconfig
 sdkconfig.defaults
+warnings.txt
